@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'fb69cace1530c8fb9d6e8080c847e07e3f2fc608',
+        'reference' => 'a9985cda420d2ee12191886b820aaa1070c1d7aa',
         'name' => 'codeigniter4/appstarter',
         'dev' => true,
     ),
@@ -16,8 +16,14 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'fb69cace1530c8fb9d6e8080c847e07e3f2fc608',
+            'reference' => 'a9985cda420d2ee12191886b820aaa1070c1d7aa',
             'dev_requirement' => false,
+        ),
+        'codeigniter4/authentication-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0',
+            ),
         ),
         'codeigniter4/framework' => array(
             'pretty_version' => 'v4.1.4',
@@ -84,6 +90,15 @@
             'replaced' => array(
                 0 => '1.10.2',
             ),
+        ),
+        'myth/auth' => array(
+            'pretty_version' => 'v1.0.1',
+            'version' => '1.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../myth/auth',
+            'aliases' => array(),
+            'reference' => 'c62802b9e2ce5be931f15270811d831cc2e85457',
+            'dev_requirement' => false,
         ),
         'nikic/php-parser' => array(
             'pretty_version' => 'v4.13.0',
