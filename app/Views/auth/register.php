@@ -38,7 +38,9 @@
                                 </form>
                                 <hr>
                                 <div class="text-center">
-                                    <a class="small" href="login.html">Already have an account? Login!</a>
+                                    <p>
+                                        <?=lang('Auth.alreadyRegistered')?> <a href="<?= route_to('login') ?>">
+                                            <?=lang('Auth.signIn')?></a></p>
                                 </div>
                             </div>
                         </div>
